@@ -1,11 +1,11 @@
 print("Welcome to my computer quiz!")
 
-playing = input("Do you want to play? yes or no - ")
+playing = input("Are you ready to play the game? ")
 
 if playing.title() != "yes":
     quit()
 
-print("Okay! Let's play :)")
+print("Let start...!! ")
 score = 0
 
 answer = input("What is the capital of india?  ")
@@ -36,5 +36,5 @@ if answer.title() == "Tiger":
 else:
     print("Incorrect!")
 
-print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+print("You got " + str(score) + " answers!")
+print("Your score is " + str((score / 4) * 100) + "%.")
