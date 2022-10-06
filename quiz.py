@@ -2,7 +2,7 @@ print("Welcome to my computer quiz!")
 
 playing = input("Do you want to play? yes or no - ")
 
-if playing.lower() != "yes":
+if playing.title() != "yes":
     quit()
 
 print("Okay! Let's play :)")
@@ -26,7 +26,7 @@ answer = input("How many Union Territories are in India ? ")
 if answer.title() == "8":
     print('Correct!')
     score += 1
-else:
+else:  
     print("Incorrect!")
 
 answer = input("What is the National animal of India ? ")
