@@ -2,7 +2,7 @@ import datetime as dt
 import requests
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = open("api_key.txt", "r").read()
+API_KEY = "46b78d0e6e36893902512eeae63ab682"
 CITY = str(input("Enter City name : "))
 
 def kelvin_to_celsius_fahrenheit(kelvin):
